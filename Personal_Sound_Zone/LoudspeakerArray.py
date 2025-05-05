@@ -197,7 +197,41 @@ class SphericalArray40(LoudspeakerArray):
                             'numelements': self._numelements,
                             'directivity': self._directivity}
         return SphericalArray40 
+
+class LineArray8(LoudspeakerArray):
+    """
+    * This class is used to simulate the 2D line loudspeaker array which consists of 10 loudspeakers
+    """
+    def __init__(self):
+        super(LineArray8, self).__init__("Line 8", "Line Array", "1.0", "Omni")
+        self._numelements = 8
+        
+
+        spk_positions = np.array([
+            [1.5, 1.65, 2.0],    # [y, x, z]
+            [1.5, 1.75, 2.0],
+            [1.5, 1.85, 2.0],
+            [1.5, 1.95, 2.0],
+            [1.5, 2.05, 2.0],
+            [1.5, 2.15, 2.0],
+            [1.5, 2.25, 2.0],
+            [1.5, 2.35, 2.0]
+        ])
+        self.spk_positions = spk_positions
+        self._directivity = "omni"
     
+    def returnArraySturct(self):
+        """
+        * This function retruns the attributes of the 2D line array as a struct
+        @ return:
+        - dict object with the name, type, thetas, phis, radius, weights, numelements, directivity
+        """
+        LineArray8 = {'name': self._spkName,
+                      'spk_positions':self.spk_positions,
+                      'version':self._version,
+                      'numelements':self._numelements,
+                      'directivity':self._directivity}
+        return LineArray8
 
 class CircularArray10(LoudspeakerArray):
     """
