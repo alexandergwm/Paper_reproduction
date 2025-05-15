@@ -1,0 +1,24 @@
+2025-05-15 22:22:43,259 - INFO - 开始训练...
+2025-05-15 22:22:43,500 - INFO - 使用设备: cuda
+2025-05-15 22:22:43,503 - INFO - 检查点保存目录: checkpoints/Autoencoder__20250515_222243
+2025-05-15 22:22:43,503 - INFO - 结果保存目录: result/Autoencoder__20250515_222243
+2025-05-15 22:22:43,503 - INFO - 开始特征提取...
+2025-05-15 22:22:43,504 - INFO - === DCASE 2020 Challenge Task 2 Feature Extraction LEVEL 1 ===
+2025-05-15 22:22:43,504 - INFO - Using parameters: n_mels=128, frames=5, n_fft=1024, hop_length=512
+2025-05-15 22:22:43,597 - INFO - Data preparation completed. Machine types: ['fan']
+2025-05-15 22:22:43,603 - INFO - Processing fan - train dataset (6521 files)
+2025-05-15 22:22:43,652 - INFO - Completed processing fan - train
+2025-05-15 22:22:43,654 - INFO - Processing fan - test dataset (1875 files)
+2025-05-15 22:22:43,664 - INFO - Completed processing fan - test
+2025-05-15 22:22:43,664 - INFO - Feature extraction completed!
+Success rate: 100.00%
+Newly processed: 0 files
+Already existing: 8396 files
+Skipped: 0 files
+Total: 8396 files
+2025-05-15 22:22:43,664 - INFO - 特征提取完成
+2025-05-15 22:22:43,664 - INFO - 加载数据...
+2025-05-15 22:22:43,688 - INFO - 加载 fan train 数据集: 6521 个文件
+2025-05-15 22:22:43,689 - INFO - 正常样本: 6521, 异常样本: 0
+2025-05-15 22:22:43,712 - INFO - 加载 fan test 数据集: 1875 个文件
+2025-05-15 22:22:43,713 - INFO - 正常样本: 400, 异常样本: 1475
