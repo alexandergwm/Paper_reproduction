@@ -17,6 +17,7 @@ This branch focuses on the simulation of some algorithms for personal sound zone
 
 
 **Algorithm:** PM-ACC (Pressure Match - Acoustic Contrast Control)
+
 **Title:** [Sound field control with a circular double-layer array of loudspeakers | The Journal of the Acoustical Society of America | AIP Publishing](https://pubs.aip.org/asa/jasa/article-abstract/131/6/4518/656056/Sound-field-control-with-a-circular-double-layer?redirectedFrom=fulltext)
 
 **Algorithm:** BACC_RD (Broadband Acoustic Contrast Control with Response Differential)
